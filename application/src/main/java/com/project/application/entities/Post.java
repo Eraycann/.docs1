@@ -17,12 +17,12 @@ import lombok.Data;
 
 @Entity
 @Table(name="p_like")
-@Data
+@Data 
 public class Post {
 	@Id
 	Long id;
 	
-	//Long userId; // oluşturma aşamasında lazım, sonrasında diil
+	//Long userId; // oluşturma aşamasında lazım, sonrasında diil 
 	
 	// @ManytoOne, birçok Post bir User'a bağlı
 	// @ManyToOne(fetch = FetchType.LAZY), FetchType.LAZY ile post çekildiğinde ilgili user objesi direkt gelmeyecektir.

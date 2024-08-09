@@ -10,7 +10,7 @@ import lombok.Data;
 // @Data, lombok @Data getter setter metotlarını otomatik generate eder.
 @Entity
 @Table(name="user")
-@Data
+@Data 
 public class User {
 
 	@Id
